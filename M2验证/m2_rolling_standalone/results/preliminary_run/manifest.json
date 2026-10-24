@@ -1,0 +1,30 @@
+{
+  "python": "3.8.20",
+  "libraries": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "gurobipy": "11.0.3",
+    "PYPOWER": "5.1.19"
+  },
+  "options": {
+    "rolling_steps": 23,
+    "verify_all": true,
+    "show_log": false,
+    "time_limit": 120
+  },
+  "parameter_fingerprint": "734b6f4d55c864d5ff8051b9f71cc4834aaa2fb1210929478605337680ced719",
+  "source_sha256": {
+    "ac_power_flow.py": "6567c90ee0d7461a5e0b0d6a02f7d4942c80faeebd24a7c4aa2fff5a79a9bd27",
+    "config.py": "ab88717e2b573de582f5d19b4f7a6778a2e7e875a09f77e3c08726749fa4e136",
+    "data.py": "a7ddbcf258813a40a848c61b672b50e86ae7f05b72be77d361d62c3f3316b46f",
+    "device_model.py": "b5829777e4cc5a5ac27e85585f135f794cf22bb3fc203fdb70ecd69d3d80f65e",
+    "initialization.py": "e3c797137f09bba09eee2e9307fbb05347f0df628ec1229fab62f5fcd97fe456",
+    "m2_model.py": "ebd1061e184b58dffca8a3224fbca816716c1011febff9d6bce04ae481f00c7a",
+    "main.py": "f647f99cc88f4761e7891ad4b392351d253b2e58f886054c9bc641e93539d5e7",
+    "network.py": "65c12e0bdfd5423041f18906e5dc6bdd2dfc6645a5fd879e9f5541f3995d00c1",
+    "results_io.py": "50ffead40819d905866467c0497a27d1e5449699399ec0a7e53ea48b9064b999",
+    "solver_utils.py": "8d10a09c0dd326cc9946f1019e4359b60ed616046eaecfe5b82d0756a2e71753",
+    "states.py": "3ffe9016624637cac9b1fb40f52077f266d65697abb57532eab8aa6e47c9003e",
+    "validation.py": "4922c70d46f00e6f0682cd71789fb0b37875261df3ea1a813850b5bb01a61474"
+  }
+}

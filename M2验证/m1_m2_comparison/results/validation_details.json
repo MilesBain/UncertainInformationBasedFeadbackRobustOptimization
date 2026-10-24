@@ -1,0 +1,1235 @@
+{
+  "M1": [
+    {
+      "m1_original_rows_violation": 2.2336299476677368e-14,
+      "m1_original_bounds_violation": 0.0,
+      "m1_integrality_violation": 0.0,
+      "m1_objective_residual": 0.0
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 4.440892098500626e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 6.439293542825908e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 7.993605777301127e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 4.6629367034256575e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 5.995204332975845e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 1.1102230246251565e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 7.993605777301127e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 8.881784197001252e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 8.881784197001252e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 4.440892098500626e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 8.881784197001252e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 1.1102230246251565e-15
+    },
+    {
+      "m1_static_robust_violation": 4.440892098500626e-16,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 4.440892098500626e-16
+    },
+    {
+      "m1_static_robust_violation": 6.661338147750939e-16,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 6.661338147750939e-16
+    },
+    {
+      "m1_static_robust_violation": 2.220446049250313e-16,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 6.661338147750939e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 6.661338147750939e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 8.881784197001252e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 1.1102230246251565e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 1.5543122344752192e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 7.771561172376096e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 7.771561172376096e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 1.1102230246251565e-16,
+      "m1_static_nominal_voltage_residual": 6.661338147750939e-16
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 4.6629367034256575e-15
+    },
+    {
+      "m1_static_robust_violation": 0.0,
+      "m1_static_vertex_residual": 2.220446049250313e-16,
+      "m1_static_nominal_voltage_residual": 8.43769498715119e-15
+    },
+    {
+      "device_constraint_violation": 3.2751579226442118e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.9048091612626187e-14,
+      "ac_nodal_balance_residual": 3.605492640557095e-14,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 1.0148132334464322e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.4138671620592152e-14,
+      "ac_nodal_balance_residual": 3.090626712887179e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 5.912631495519349e-14
+    },
+    {
+      "device_constraint_violation": 6.938893903907228e-18,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 6.838976084578224e-15,
+      "ac_nodal_balance_residual": 2.818448599506418e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 5.535155667146796e-14
+    },
+    {
+      "device_constraint_violation": 6.938893903907228e-18,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 8.12897885864139e-14,
+      "ac_nodal_balance_residual": 1.751029876650989e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 7.4870665223159e-15
+    },
+    {
+      "device_constraint_violation": 6.938893903907228e-18,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.135625977496748e-14,
+      "ac_nodal_balance_residual": 3.5157207006752955e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 3.569020079474683e-14
+    },
+    {
+      "device_constraint_violation": 9.910041537386505e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 5.0026191846753295e-11,
+      "ac_nodal_balance_residual": 8.874450480034213e-11,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 7.20852873919986e-11
+    },
+    {
+      "device_constraint_violation": 2.393918396847994e-16,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.115844650368788e-14,
+      "ac_nodal_balance_residual": 4.495579256080795e-14,
+      "device_mapping_residual": 4.336808689942018e-18,
+      "ac_global_power_balance_residual": 2.1597307275911248e-14
+    },
+    {
+      "device_constraint_violation": 8.743006318923108e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 6.864344414464851e-15,
+      "ac_nodal_balance_residual": 4.100712824861574e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 2.601304588401021e-14
+    },
+    {
+      "device_constraint_violation": 3.608224830031759e-16,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.85801492199088e-15,
+      "ac_nodal_balance_residual": 9.54462203717199e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 8.469440426761565e-14
+    },
+    {
+      "device_constraint_violation": 3.400058012914542e-16,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.5403024283459905e-14,
+      "ac_nodal_balance_residual": 2.8619467906665363e-14,
+      "device_mapping_residual": 1.734723475976807e-18,
+      "ac_global_power_balance_residual": 2.5972279882324756e-14
+    },
+    {
+      "device_constraint_violation": 8.819334151866087e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.1783761268917528e-12,
+      "ac_nodal_balance_residual": 1.3995193892668567e-12,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 8.603395773576494e-13
+    },
+    {
+      "device_constraint_violation": 1.3912482277333993e-14,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.154244401697285e-13,
+      "ac_nodal_balance_residual": 3.745892485085278e-13,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 3.1261104815882845e-13
+    },
+    {
+      "device_constraint_violation": 1.0116907311896739e-14,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 3.8697899728698715e-13,
+      "ac_nodal_balance_residual": 4.46975789714088e-13,
+      "device_mapping_residual": 5.551115123125783e-17,
+      "ac_global_power_balance_residual": 3.4178215813085444e-13
+    },
+    {
+      "device_constraint_violation": 9.048317650695026e-15,
+      "energy_balance_residual": 1.3877787807814457e-17
+    },
+    {
+      "independent_ac_voltage_residual": 7.371964484168376e-14,
+      "ac_nodal_balance_residual": 4.429095978863984e-14,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 6.419864639894968e-14
+    },
+    {
+      "device_constraint_violation": 1.3378187446733136e-14,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.9454922022834323e-13,
+      "ac_nodal_balance_residual": 3.4522384950719243e-13,
+      "device_mapping_residual": 5.551115123125783e-17,
+      "ac_global_power_balance_residual": 2.4207025273170757e-13
+    },
+    {
+      "device_constraint_violation": 1.2177758801357186e-14,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.7651541450765367e-13,
+      "ac_nodal_balance_residual": 2.996214387707141e-13,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.8847423621792814e-13
+    },
+    {
+      "device_constraint_violation": 2.2336299476677368e-14,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.1385893301457736e-12,
+      "ac_nodal_balance_residual": 1.2481682354348322e-12,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 7.877032359715486e-13
+    },
+    {
+      "device_constraint_violation": 3.3306690738754696e-16,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 3.83225203760994e-14,
+      "ac_nodal_balance_residual": 4.348084392535867e-14,
+      "device_mapping_residual": 3.469446951953614e-18,
+      "ac_global_power_balance_residual": 3.6290415117434804e-15
+    },
+    {
+      "device_constraint_violation": 4.0245584642661925e-16,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 8.197800443987915e-15,
+      "ac_nodal_balance_residual": 4.4204223614841e-14,
+      "device_mapping_residual": 3.469446951953614e-18,
+      "ac_global_power_balance_residual": 2.294952422543517e-14
+    },
+    {
+      "device_constraint_violation": 7.903400156550333e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 4.955776680120727e-14,
+      "ac_nodal_balance_residual": 5.5463446335668465e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.3655743202889425e-14
+    },
+    {
+      "device_constraint_violation": 1.2212453270876722e-15,
+      "energy_balance_residual": 1.3877787807814457e-17
+    },
+    {
+      "independent_ac_voltage_residual": 6.0734351071794275e-15,
+      "ac_nodal_balance_residual": 2.9351521213527576e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 1.0193235144839718e-14
+    },
+    {
+      "device_constraint_violation": 2.7755575615628914e-17,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 5.062920599986821e-12,
+      "ac_nodal_balance_residual": 6.782657768766853e-12,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 1.153828595168438e-11
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 6.475607331303142e-14,
+      "ac_nodal_balance_residual": 4.982212559179189e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 3.4583447217073626e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.1876086688144206e-14,
+      "ac_nodal_balance_residual": 3.326288897098628e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.7215395775593834e-14
+    }
+  ],
+  "M2": [
+    {
+      "device_constraint_violation": 3.2751579226442118e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.9048091612626187e-14,
+      "ac_nodal_balance_residual": 3.605492640557095e-14,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 1.0148132334464322e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.1102230246251565e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 6.591949208711867e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 5.377642775528102e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 3.6496906535783804e-14,
+      "ac_nodal_balance_residual": 3.1040274517391e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 5.031391969723131e-14
+    },
+    {
+      "device_constraint_violation": 1.7486012637846216e-15,
+      "energy_balance_residual": 1.3877787807814457e-17,
+      "h_affine_residual": 1.6653345369377348e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 4.440892098500626e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.249000902703301e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.737697458556344e-14,
+      "ac_nodal_balance_residual": 2.2273849431542203e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 4.687569776784528e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 8.326672684688674e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 2.220446049250313e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.1796119636642288e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.1798326191967652e-14,
+      "ac_nodal_balance_residual": 2.8510180327678825e-14,
+      "device_mapping_residual": 3.469446951953614e-18,
+      "ac_global_power_balance_residual": 2.267283583101687e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 3.686287386450715e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 2.7755575615628914e-17,
+      "dual_inequality_violation": 0.0,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 8.326672684688674e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 5.8694686042496345e-15,
+      "ac_nodal_balance_residual": 2.4254036279369728e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 2.296513673671896e-14
+    },
+    {
+      "device_constraint_violation": 2.7712207528729493e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 5.551115123125783e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 3.3306690738754696e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 7.112366251504909e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.484930290889053e-14,
+      "ac_nodal_balance_residual": 3.1175149267648194e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 1.8207657603852567e-14
+    },
+    {
+      "device_constraint_violation": 5.93275428784068e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 2.0816681711721685e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 5.342948306008566e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 5.551115123125783e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.790697014621644e-15,
+      "ac_nodal_balance_residual": 4.493801164517919e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 5.74505720773999e-14
+    },
+    {
+      "device_constraint_violation": 6.279698983036042e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 3.8163916471489756e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 3.608224830031759e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.1015494072452725e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.4243351368602814e-14,
+      "ac_nodal_balance_residual": 1.3824878741797164e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 5.443562267615221e-15
+    },
+    {
+      "device_constraint_violation": 2.7755575615628914e-17,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.3877787807814457e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 9.506284648352903e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.0234868508263162e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 3.226369283950393e-14,
+      "ac_nodal_balance_residual": 2.5302676620597708e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.9904217163357885e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 2.7755575615628914e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 3.885780586188048e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.0061396160665481e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 5.158858886550839e-14,
+      "ac_nodal_balance_residual": 6.11750233803221e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 2.2763041451767663e-14
+    },
+    {
+      "device_constraint_violation": 2.7755575615628914e-17,
+      "energy_balance_residual": 2.7755575615628914e-17,
+      "h_affine_residual": 1.6653345369377348e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 3.3306690738754696e-16,
+      "dual_inequality_violation": 0.0,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 9.020562075079397e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.3869640114097517e-13,
+      "ac_nodal_balance_residual": 3.181344077063386e-13,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 2.1113666370808915e-13
+    },
+    {
+      "device_constraint_violation": 7.91033905045424e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.1102230246251565e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 4.996003610813204e-16,
+      "dual_inequality_violation": 0.0,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.6740081543176188e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.141362881711706e-13,
+      "ac_nodal_balance_residual": 1.015645033353163e-12,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 9.599543382421416e-13
+    },
+    {
+      "device_constraint_violation": 1.0685896612017132e-15,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 2.7755575615628914e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 2.3592239273284576e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 2.1337098754514727e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.664657648452022e-12,
+      "ac_nodal_balance_residual": 1.4121315228265985e-11,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.0597273059076429e-11
+    },
+    {
+      "device_constraint_violation": 6.661338147750939e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 6.938893903907228e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 4.440892098500626e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.1015494072452725e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.2414534539890476e-11,
+      "ac_nodal_balance_residual": 2.33223440559982e-11,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 1.73522585189545e-11
+    },
+    {
+      "device_constraint_violation": 9.922618282587337e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 8.673617379884035e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 1.97758476261356e-15,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 2.0556473190325164e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.7482927744984635e-11,
+      "ac_nodal_balance_residual": 3.430930539671806e-11,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 2.4130128450927657e-11
+    },
+    {
+      "device_constraint_violation": 6.938893903907228e-18,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 8.326672684688674e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 3.95516952522712e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.6219664500383146e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.742721582652034e-11,
+      "ac_nodal_balance_residual": 5.287781323914942e-11,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 3.828232175706603e-11
+    },
+    {
+      "device_constraint_violation": 8.604228440844963e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.1102230246251565e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 1.7208456881689926e-15,
+      "dual_inequality_violation": 0.0,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 2.0122792321330962e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.193814462033179e-14,
+      "ac_nodal_balance_residual": 6.460977586275618e-14,
+      "device_mapping_residual": 6.938893903907228e-18,
+      "ac_global_power_balance_residual": 2.6787599916033855e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.6653345369377348e-16,
+      "robust_upper_violation": 2.220446049250313e-16,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 2.914335439641036e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.942890293094024e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.3191510012820783e-13,
+      "ac_nodal_balance_residual": 4.59320081969139e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 2.438327317833e-14
+    },
+    {
+      "device_constraint_violation": 9.783840404509192e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.1102230246251565e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 9.020562075079397e-16,
+      "dual_inequality_violation": 0.0,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.6653345369377348e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.7485572067603693e-14,
+      "ac_nodal_balance_residual": 2.2296400836729902e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 2.4032859036182685e-14
+    },
+    {
+      "device_constraint_violation": 3.8163916471489756e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 3.469446951953614e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 7.632783294297951e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.1796119636642288e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 8.49264205106891e-15,
+      "ac_nodal_balance_residual": 5.547645676173829e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 1.9585028043778152e-14
+    },
+    {
+      "device_constraint_violation": 5.26488574958961e-16,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 5.551115123125783e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 1.0581813203458523e-15,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 6.591949208711867e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.6931683738117617e-14,
+      "ac_nodal_balance_residual": 3.3551286748867426e-14,
+      "device_mapping_residual": 3.469446951953614e-18,
+      "ac_global_power_balance_residual": 2.2336299476677368e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 1.3877787807814457e-17,
+      "h_affine_residual": 2.7755575615628914e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 3.608224830031759e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 6.635317295611287e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.5343151585867407e-14,
+      "ac_nodal_balance_residual": 4.0278544388705484e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 8.935560624756533e-15
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 4.163336342344337e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 3.885780586188048e-16,
+      "dual_inequality_violation": 2.220446049250313e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.0408340855860843e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 2.8816450278996707e-14,
+      "ac_nodal_balance_residual": 6.915908817850536e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 5.841681305351898e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.3877787807814457e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 3.469446951953614e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 6.375108774214766e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 4.932955742830931e-11,
+      "ac_nodal_balance_residual": 7.661573458994653e-11,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 6.795834728290373e-11
+    }
+  ],
+  "M2_solver_steps": [
+    {
+      "period": 1,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.009000062942504883,
+      "build_and_solve_s": 0.12200549999999999,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 2,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.00800013542175293,
+      "build_and_solve_s": 0.12342680000000006,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 3,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.006999969482421875,
+      "build_and_solve_s": 0.11904769999999987,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 4,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.01900005340576172,
+      "build_and_solve_s": 0.13053440000000016,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 5,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.009999990463256836,
+      "build_and_solve_s": 0.12085649999999992,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 6,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.01100015640258789,
+      "build_and_solve_s": 0.1427204999999998,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 7,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.0,
+      "build_and_solve_s": 0.11742119999999989,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 8,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.009000062942504883,
+      "build_and_solve_s": 0.1269524000000004,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 9,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.009999990463256836,
+      "build_and_solve_s": 0.11985920000000005,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 10,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.012000083923339844,
+      "build_and_solve_s": 0.13614379999999926,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 11,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.006999969482421875,
+      "build_and_solve_s": 0.1256389999999996,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 12,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.006999969482421875,
+      "build_and_solve_s": 0.13339869999999987,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 13,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.013000011444091797,
+      "build_and_solve_s": 0.13237439999999978,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 14,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.005000114440917969,
+      "build_and_solve_s": 0.1276793000000005,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 15,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.012000083923339844,
+      "build_and_solve_s": 0.12011470000000024,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 16,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.006999969482421875,
+      "build_and_solve_s": 0.11510079999999956,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 17,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.0,
+      "build_and_solve_s": 0.13158720000000024,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 18,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.015000104904174805,
+      "build_and_solve_s": 0.12105700000000041,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 19,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.009000062942504883,
+      "build_and_solve_s": 0.12464279999999928,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 20,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.01100015640258789,
+      "build_and_solve_s": 0.12049920000000025,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 21,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.008999824523925781,
+      "build_and_solve_s": 0.12974080000000043,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 22,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.008999824523925781,
+      "build_and_solve_s": 0.1218319000000001,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    },
+    {
+      "period": 23,
+      "status": "optimal",
+      "gurobi_status": 2,
+      "formulation": "dual",
+      "objective": 0.0,
+      "voltage_penalty": 0.0,
+      "curtailment_penalty": 0.0,
+      "runtime_s": 0.016000032424926758,
+      "build_and_solve_s": 0.13175580000000053,
+      "gap": 0.0,
+      "variables": 8281,
+      "constraints": 4197,
+      "integer_variables": 6,
+      "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735"
+    }
+  ]
+}

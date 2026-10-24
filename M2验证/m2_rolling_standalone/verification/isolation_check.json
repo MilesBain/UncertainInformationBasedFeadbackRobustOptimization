@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "guard": "Python audit hook raises PermissionError for any open() beneath the original M2验证 directory",
+  "original_directory_access_forbidden": "D:\\StudyAndCompitation\\Master\\Ucertain\\selfResearch\\M2验证",
+  "isolated_execution_directory": "C:\\Users\\29909\\Documents\\Codex\\2026-10-22\\du-q\\work\\standalone_isolation",
+  "copied_runtime_file_count": 12,
+  "executed_periods": 3,
+  "rolling_solves": 2,
+  "all_checks_passed": true,
+  "parameter_fingerprint": "777f5fc5c2c756f181b149d4f6bb3301cd3941593783c13c54f142ac209187f1",
+  "copied_runtime_hashes": {
+    "ac_power_flow.py": "6567c90ee0d7461a5e0b0d6a02f7d4942c80faeebd24a7c4aa2fff5a79a9bd27",
+    "config.py": "ab88717e2b573de582f5d19b4f7a6778a2e7e875a09f77e3c08726749fa4e136",
+    "data.py": "77b8166d03b497e82fac9207cacb9154daad868689fa0c21346fc4f77421de04",
+    "device_model.py": "b5829777e4cc5a5ac27e85585f135f794cf22bb3fc203fdb70ecd69d3d80f65e",
+    "initialization.py": "e3c797137f09bba09eee2e9307fbb05347f0df628ec1229fab62f5fcd97fe456",
+    "m2_model.py": "ebd1061e184b58dffca8a3224fbca816716c1011febff9d6bce04ae481f00c7a",
+    "main.py": "efd5f2485ef247ccde7f13ab3552d4f1a7acd75b57dc37fec22c018a195a04b9",
+    "network.py": "65c12e0bdfd5423041f18906e5dc6bdd2dfc6645a5fd879e9f5541f3995d00c1",
+    "results_io.py": "50ffead40819d905866467c0497a27d1e5449699399ec0a7e53ea48b9064b999",
+    "solver_utils.py": "8d10a09c0dd326cc9946f1019e4359b60ed616046eaecfe5b82d0756a2e71753",
+    "states.py": "3ffe9016624637cac9b1fb40f52077f266d65697abb57532eab8aa6e47c9003e",
+    "validation.py": "4922c70d46f00e6f0682cd71789fb0b37875261df3ea1a813850b5bb01a61474"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pages": 9,
+  "expected_sections_on_correct_pages": true,
+  "critical_numbers_present": true,
+  "source_hashes_unchanged": true,
+  "pdf_sha256": "488e75d7547f578b1f2a3c5c589859c3537405d8c6f9e757eb4774fce945a280",
+  "all_9_pages_visually_reviewed": true,
+  "mathematical_glyphs_checked": true
+}

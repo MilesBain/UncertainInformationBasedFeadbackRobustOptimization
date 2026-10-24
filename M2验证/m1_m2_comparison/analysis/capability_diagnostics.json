@@ -1,0 +1,163 @@
+{
+  "analysis_date": "2026-10-23",
+  "source_sha256": {
+    "summary.json": "b21fdfa8a26396db6bd146c25a774be6e80928b4d2078b88969a9d8527e0805a",
+    "fairness_audit.json": "123b55c7c76320aacebeff758dd06945999278cf522fa1ba81fefc22beec91d6",
+    "m1_results.npz": "70114155e4ceb7b1e95b430802ae66958b8b3c7e363a5dfcb075efbd75a7f264",
+    "m2_results.npz": "4f9866c1a99d606227cf6af073556191d0b1ab58dcc2535b041d0bc8a7eb13db",
+    "paired_ac_audit.json": "bfe0c6cc1a07b34300c4425c99732cb26a7e8bbcd756d413c826593176fcd0f2",
+    "initial_state_audit.json": "9573a118995b903e423cceab1c2a32a116015fe322c5c9e584a1b0fe52260ea5",
+    "validation_details.json": "7b1f01b239687105782e146cd14b4e2b61942c25e8d10449239522d47b2ef005"
+  },
+  "scenario_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+  "new_optimization_solves": 0,
+  "new_ac_solves": 0,
+  "control_sequences_changed": false,
+  "true_parameters_max_distance_from_nominal": 0.0,
+  "true_parameters_inside_box": true,
+  "methods": {
+    "M1": {
+      "same_action_static_prediction_rmse_sq": 0.019419379614475363,
+      "same_action_ac_anchored_prediction_rmse_sq": 0.00751640716030002,
+      "same_action_rmse_reduction_pct": 61.294298224144974,
+      "same_action_static_prediction_max_abs_error_sq": 0.0651179747220616,
+      "same_action_anchored_prediction_max_abs_error_sq": 0.04172921207458957,
+      "residual_difference_identity_max_error": 3.3306690738754696e-16,
+      "saved_prediction_identity_max_error": 0.0,
+      "actual_prediction_p95_abs_error_sq": 0.04777988219952162,
+      "actual_prediction_max_error_location": {
+        "period": 10,
+        "bus": 18
+      },
+      "cb_total_step_movement": 70,
+      "cb_device_transition_events": 26,
+      "cb_max_single_transition_steps": 4,
+      "control_changes": {
+        "qpv": {
+          "total_absolute_change": 11351.270283454583,
+          "max_single_device_change": 1030.976012728683,
+          "unit": "kvar"
+        },
+        "qsvg": {
+          "total_absolute_change": 8444.987149309647,
+          "max_single_device_change": 1200.0,
+          "unit": "kvar"
+        },
+        "qcb": {
+          "total_absolute_change": 10500.0,
+          "max_single_device_change": 600.0,
+          "unit": "kvar"
+        },
+        "qess": {
+          "total_absolute_change": 3312.0000000001355,
+          "max_single_device_change": 963.1473642069485,
+          "unit": "kvar"
+        },
+        "pess": {
+          "total_absolute_change": 7998.085422049705,
+          "max_single_device_change": 1794.5593645741696,
+          "unit": "kW"
+        },
+        "curt": {
+          "total_absolute_change": 4804.501244825693,
+          "max_single_device_change": 2110.1553622116076,
+          "unit": "kW"
+        }
+      },
+      "ac_voltage_violations": []
+    },
+    "M2": {
+      "same_action_static_prediction_rmse_sq": 0.024375380331704433,
+      "same_action_ac_anchored_prediction_rmse_sq": 0.010642018146680633,
+      "same_action_rmse_reduction_pct": 56.341119597470104,
+      "same_action_static_prediction_max_abs_error_sq": 0.10215699977665271,
+      "same_action_anchored_prediction_max_abs_error_sq": 0.08676807565845057,
+      "residual_difference_identity_max_error": 2.220446049250313e-16,
+      "saved_prediction_identity_max_error": 4.440892098500626e-16,
+      "actual_prediction_p95_abs_error_sq": 0.016353193274983052,
+      "actual_prediction_max_error_location": {
+        "period": 16,
+        "bus": 18
+      },
+      "cb_total_step_movement": 48,
+      "cb_device_transition_events": 15,
+      "cb_max_single_transition_steps": 4,
+      "control_changes": {
+        "qpv": {
+          "total_absolute_change": 11518.179035764766,
+          "max_single_device_change": 1025.494408158061,
+          "unit": "kvar"
+        },
+        "qsvg": {
+          "total_absolute_change": 20829.625432640398,
+          "max_single_device_change": 1200.0000000000175,
+          "unit": "kvar"
+        },
+        "qcb": {
+          "total_absolute_change": 7200.0,
+          "max_single_device_change": 600.0,
+          "unit": "kvar"
+        },
+        "qess": {
+          "total_absolute_change": 6639.651463933239,
+          "max_single_device_change": 1200.0,
+          "unit": "kvar"
+        },
+        "pess": {
+          "total_absolute_change": 10095.314779153843,
+          "max_single_device_change": 1569.2799483527433,
+          "unit": "kW"
+        },
+        "curt": {
+          "total_absolute_change": 0.0,
+          "max_single_device_change": 0.0,
+          "unit": "kW"
+        }
+      },
+      "ac_voltage_violations": [
+        {
+          "period": 14,
+          "bus": 33,
+          "actual_pu": 1.0506138003265735,
+          "prediction_lower_pu": 1.0496891225647982,
+          "prediction_upper_pu": 1.05,
+          "prediction_nominal_pu": 1.0498445727894334,
+          "prediction_error_sq": 0.0016157304212174317,
+          "absolute_model_residual_before_sq": -0.04651060524794737,
+          "absolute_model_residual_after_sq": -0.044894874826729936,
+          "error_over_upper_sq": 0.0012893574366452665,
+          "max_control_change_any_device": 300.0,
+          "true_linear_model_voltage_sq": 1.148684232263375
+        },
+        {
+          "period": 16,
+          "bus": 17,
+          "actual_pu": 1.0574467670620862,
+          "prediction_lower_pu": 0.9874498729595772,
+          "prediction_upper_pu": 1.0433434817696543,
+          "prediction_nominal_pu": 1.01578119508069,
+          "prediction_error_sq": 0.08638222889050273,
+          "absolute_model_residual_before_sq": -0.10172154882060314,
+          "absolute_model_residual_after_sq": -0.015339319930100404,
+          "error_over_upper_sq": 0.029628044218832805,
+          "max_control_change_any_device": 1526.344252388902,
+          "true_linear_model_voltage_sq": 1.1335329851001583
+        },
+        {
+          "period": 16,
+          "bus": 18,
+          "actual_pu": 1.0641963592245467,
+          "prediction_lower_pu": 0.9944805833482422,
+          "prediction_upper_pu": 1.05,
+          "prediction_nominal_pu": 1.0226171401498854,
+          "prediction_error_sq": 0.08676807565845035,
+          "absolute_model_residual_before_sq": -0.10215699977665271,
+          "absolute_model_residual_after_sq": -0.015388924118202363,
+          "error_over_upper_sq": 0.030013890986780423,
+          "max_control_change_any_device": 1526.344252388902,
+          "true_linear_model_voltage_sq": 1.1479028151049828
+        }
+      ]
+    }
+  }
+}

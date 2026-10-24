@@ -1,0 +1,275 @@
+{
+  "all_parameter_checks_passed": true,
+  "check_count": 51,
+  "checks": [
+    {
+      "name": "BASE_POWER_MVA",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "BASE_VOLTAGE_KV",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "PERIOD_COUNT",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "TIME_STEP_HOURS",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "BUS_COUNT",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "MIN_VOLTAGE_PU",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "MAX_VOLTAGE_PU",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "VOLTAGE_PENALTY",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "CURTAILMENT_PENALTY",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "GRID_P_LIMIT_KW",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "GRID_Q_LIMIT_KVAR",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "PV_MIN_POWER_FACTOR",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "BRANCHES",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "LOADS",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "LOAD_PROFILE",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "PV_PROFILE",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "PV_CAPACITY_KW",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "SVG_CAPACITY_KVAR",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "CAPACITORS",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "STORAGE",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "UNCERTAIN_BRANCHES",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "ROOT_BUS",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "ROOT_VOLTAGE_SQUARED",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "TRUE_RESISTANCE_OHM",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "TRUE_REACTANCE_OHM",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "Z_BASE",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "KAPPA",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "V_LO_SQ",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "V_HI_SQ",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "p_load[24,32]",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "q_load[24,32]",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "pv_available[24,32]",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "p_external",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "q_external",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "r_nominal",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "x_nominal",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "r_radius",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "x_radius",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "branch_from",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "branch_to",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "paths",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "A",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "initial_energy",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "SVG_limits_pu",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "CB_step_limits_pu",
+      "exactly_equal": true,
+      "max_absolute_difference": 0
+    },
+    {
+      "name": "grid_p_limits_pu",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "grid_q_limits_pu",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "theta_nominal",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "theta_radius",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "F",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "name": "g",
+      "exactly_equal": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "m1_source": "D:\\StudyAndCompitation\\Master\\Ucertain\\selfResearch\\M2验证\\code\\rb_ieee33_storage.py",
+  "m1_source_sha256": "35b5bd88dce15d12f86d04298175bb7b862c9acb97af4c31552a317c5193ea69",
+  "new_parameter_fingerprint": "777f5fc5c2c756f181b149d4f6bb3301cd3941593783c13c54f142ac209187f1",
+  "initialization_equivalence": {
+    "m1_original_optimal_objective": 0.3030658284469051,
+    "new_static_optimal_objective": 0.3030658284469552,
+    "objective_difference": 5.007105841059456e-14,
+    "m1_original_constraint_rows": 5401,
+    "m1_original_variables": 5449,
+    "new_plan_max_violation_in_original_m1_rows": 1.7455654977016621e-15,
+    "new_plan_max_original_variable_bound_violation": 3.58046925441613e-15,
+    "new_plan_max_original_integrality_violation": 0.0
+  },
+  "note": "这是项目外的一次性验收。独立项目运行、测试和初始化均不加载此脚本或原M1。最优动作可能不唯一。"
+}

@@ -1,0 +1,18 @@
+test_box_vertices_and_support_function (test_model.DataTests) ... ok
+test_dimensions_and_exact_fixed_environment (test_model.DataTests) ... ok
+test_invalid_topology_rejected (test_model.DataTests) ... ok
+test_net_injection_sign_and_voltage_drop (test_model.DataTests) ... ok
+test_parameters_readonly_and_changes_detected (test_model.DataTests) ... ok
+test_radial_paths_accept_unordered_branches (test_model.DataTests) ... ok
+test_runtime_imports_are_local_or_declared (test_model.DataTests) ... ok
+test_ac_mapping_detects_inconsistent_storage_action (test_model.OptimizationTests) ... ok
+test_dual_absolute_agree_with_positive_voltage_penalty (test_model.OptimizationTests) ... ok
+test_invalid_state_rejected (test_model.OptimizationTests) ... ok
+test_rolling_model_execution_and_energy (test_model.OptimizationTests) ... ok
+test_static_schedule_and_reference_optimum (test_model.OptimizationTests) ... ok
+test_feedback_and_energy_continuity_if_verified_run_present (test_model.SavedTrajectoryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.209s
+
+OK

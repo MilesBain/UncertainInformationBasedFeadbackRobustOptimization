@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "m2_steps_completed": 2,
+  "ac_power_flows_completed": 3,
+  "full_24_period_run": false,
+  "optimization_failures": 0,
+  "ac_failures": 0,
+  "source_sha256": "35b5bd88dce15d12f86d04298175bb7b862c9acb97af4c31552a317c5193ea69",
+  "uncertainty_sha256": "6dc5cd851d161ee87f3903b9013566ce2b43cdfe68acd7792e50ee805045b735",
+  "max_mip_gap": 0.0,
+  "actual_voltage_min_pu": 0.9397645861938632,
+  "actual_voltage_max_pu": 1.0221678507232455,
+  "undervoltage_node_periods": 0,
+  "overvoltage_node_periods": 0,
+  "voltage_violation_periods": 0,
+  "max_undervoltage_pu": 0.0,
+  "max_overvoltage_pu": 0.0,
+  "curtailment_kwh": 0.0,
+  "pv_available_kwh": 0.0,
+  "m2_slack_sum_sq": 0.0,
+  "m2_objective_sum": 0.0,
+  "max_prediction_error_sq": 0.0018224381775658882,
+  "max_ac_outside_linear_envelope_sq": 0.0007210859760053978,
+  "mean_solver_runtime_s": 0.015500068664550781,
+  "max_solver_runtime_s": 0.023999929428100586,
+  "mean_build_solve_s": 0.12133870000000013,
+  "max_ac_grid_p_violation_kw": 0.0,
+  "max_ac_grid_q_violation_kvar": 125.23768777290917,
+  "maximum_validation_residuals": {
+    "ac_global_power_balance_residual": 5.031391969723131e-14,
+    "ac_nodal_balance_residual": 3.605492640557095e-14,
+    "device_constraint_violation": 3.2751579226442118e-15,
+    "device_mapping_residual": 2.7755575615628914e-17,
+    "dual_equality_residual": 6.591949208711867e-16,
+    "dual_inequality_violation": 1.1102230246251565e-16,
+    "dual_nonnegative_violation": 0,
+    "energy_balance_residual": 1.3877787807814457e-17,
+    "h_affine_residual": 1.6653345369377348e-16,
+    "independent_ac_voltage_residual": 7.737697458556344e-14,
+    "nonnegative_slack_violation": 0,
+    "objective_residual": 0,
+    "reported_interval_residual": 2.220446049250313e-16,
+    "robust_lower_violation": 0,
+    "robust_upper_violation": 0,
+    "vertex_extrema_residual": 2.220446049250313e-16,
+    "weak_duality_violation": 1.249000902703301e-16,
+    "feedback_identity_residual": 0.0
+  },
+  "absolute_formulation_checks": [
+    {
+      "period": 1,
+      "dual_objective": 0.0,
+      "absolute_objective": 0.0,
+      "objective_difference": 0.0
+    }
+  ],
+  "m1_initialization": {
+    "status": "optimal",
+    "gurobi_status": 2,
+    "objective": 0.3030658284469053,
+    "runtime_s": 0.1639997959136963,
+    "gap": 0.0,
+    "source": "unmodified full-horizon M1, period 0 only"
+  },
+  "storage_initial_energy_kwh": [
+    1000.0
+  ],
+  "storage_final_energy_kwh": [
+    747.3684210526316
+  ],
+  "environment": {
+    "python": "3.8.20",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "gurobi": "11.0.3",
+    "python_executable": "C:\\Users\\29909\\Documents\\Codex\\2026-10-22\\du-q\\work\\.venv\\Scripts\\python.exe",
+    "pypower": "5.1.19"
+  }
+}

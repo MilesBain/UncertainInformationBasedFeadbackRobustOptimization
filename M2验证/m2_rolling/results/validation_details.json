@@ -1,0 +1,75 @@
+{
+  "residual_checks": [
+    {
+      "device_constraint_violation": 3.2751579226442118e-15,
+      "energy_balance_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 1.9048091612626187e-14,
+      "ac_nodal_balance_residual": 3.605492640557095e-14,
+      "device_mapping_residual": 2.7755575615628914e-17,
+      "ac_global_power_balance_residual": 1.0148132334464322e-14
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 1.1102230246251565e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "dual_equality_residual": 6.591949208711867e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 5.377642775528102e-17,
+      "objective_residual": 0.0
+    },
+    {
+      "device_constraint_violation": 0.0,
+      "energy_balance_residual": 0.0,
+      "h_affine_residual": 5.551115123125783e-17,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 1.1102230246251565e-16,
+      "vertex_extrema_residual": 1.1102230246251565e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 3.6496906535783804e-14,
+      "ac_nodal_balance_residual": 3.1040274517391e-14,
+      "device_mapping_residual": 0.0,
+      "ac_global_power_balance_residual": 5.031391969723131e-14
+    },
+    {
+      "device_constraint_violation": 1.7486012637846216e-15,
+      "energy_balance_residual": 1.3877787807814457e-17,
+      "h_affine_residual": 1.6653345369377348e-16,
+      "robust_upper_violation": 0.0,
+      "robust_lower_violation": 0.0,
+      "nonnegative_slack_violation": 0.0,
+      "reported_interval_residual": 2.220446049250313e-16,
+      "vertex_extrema_residual": 2.220446049250313e-16,
+      "dual_equality_residual": 4.440892098500626e-16,
+      "dual_inequality_violation": 1.1102230246251565e-16,
+      "dual_nonnegative_violation": 0.0,
+      "weak_duality_violation": 1.249000902703301e-16,
+      "objective_residual": 0.0
+    },
+    {
+      "independent_ac_voltage_residual": 7.737697458556344e-14,
+      "ac_nodal_balance_residual": 2.2273849431542203e-14,
+      "device_mapping_residual": 1.3877787807814457e-17,
+      "ac_global_power_balance_residual": 4.687569776784528e-14
+    }
+  ],
+  "absolute_checks": [
+    {
+      "period": 1,
+      "dual_objective": 0.0,
+      "absolute_objective": 0.0,
+      "objective_difference": 0.0
+    }
+  ]
+}

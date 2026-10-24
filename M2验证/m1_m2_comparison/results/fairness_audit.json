@@ -1,0 +1,565 @@
+{
+  "exact_equality": true,
+  "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+  "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+  "difference_count": 0,
+  "source_files": [
+    {
+      "file": "data.py",
+      "sha256": "4068f9cd5b452d732d6588f22e1aaeb84819340133050b8bd559231d20f3bb0e",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "controller.py",
+      "sha256": "c65eec4f28321ee62e81acc9d2c97d511652ab15ff387a8f99e0d1bc63b0f055",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "power_flow.py",
+      "sha256": "a38e845d5aeed3386de177a5f632531acf25f04551f90838a3cf4fc8f5b948cc",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "validation.py",
+      "sha256": "890becc6e3750fee9e87b15dbf7615d40b3567bae88bd5f18b0480b1b885be64",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "reference/rb_ieee33_storage.py",
+      "sha256": "35b5bd88dce15d12f86d04298175bb7b862c9acb97af4c31552a317c5193ea69",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    }
+  ],
+  "numerical_guards": {
+    "branch_abs_p_upper_bound_pu": 0.76537,
+    "branch_abs_q_upper_bound_pu": 0.6874235820234973,
+    "static_nominal_voltage_min_bound_sq": 0.4542101554223658,
+    "static_nominal_voltage_max_bound_sq": 1.8301216043713895,
+    "psi_upper_bound_sq": 0.04538872573362834,
+    "needed_static_slack_upper_bound_sq": 0.818399055838646,
+    "pv_abs_q_upper_bound_pu": 0.09564707460704919,
+    "legacy_numeric_guards_redundant_for_static_model": true,
+    "explanation": "M1 P/Q and abs-flow +/-5, v0 [-2,3], Psi<=2, slack<=1, |Qpv|<=1 do not exclude feasible physical controls in this scenario. M2 incremental soft slack remains unbounded as specified."
+  },
+  "objective_coefficients": {
+    "C_V_M1": 100.0,
+    "C_V_M2": 100.0,
+    "C_CURT_M1": 1.0,
+    "C_CURT_M2": 1.0,
+    "exact_equal": true,
+    "M1_all_objective_columns_checked": 5449,
+    "power_base_kw": 10000.0,
+    "power_unit": "p.u.",
+    "voltage_slack_unit": "p.u.^2",
+    "dt_hours": 1.0,
+    "formula": "C_V*sum(s_plus+s_minus)+C_CURT*sum(P_curt_pu)",
+    "extra_action_or_terminal_cost": 0.0
+  },
+  "shared_initial_state": {
+    "all_dispatch_fields_equal": [
+      "u",
+      "pch",
+      "pdis",
+      "zch",
+      "zdis",
+      "gamma",
+      "energy_after"
+    ],
+    "exact_same_action": true,
+    "exact_same_ac_voltage": true,
+    "exact_same_energy_before_and_after_period_0": true,
+    "M1_full_day_solved_once": true,
+    "M1_initial_state_sha256": "73c0c87ff77efc1fe5c9ddd2a091c124d9c0d82404904def1045cebc79b5fdd3",
+    "M2_initial_state_sha256": "73c0c87ff77efc1fe5c9ddd2a091c124d9c0d82404904def1045cebc79b5fdd3",
+    "M1": {
+      "dispatch": {
+        "u": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.027282531480515168,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.06,
+          0.05960000000000326,
+          0.0,
+          0.06,
+          0.0,
+          0.03,
+          0.06
+        ],
+        "pch": [
+          0.027282531480515147
+        ],
+        "pdis": [
+          0.0
+        ],
+        "zch": [
+          1.0
+        ],
+        "zdis": [
+          0.0
+        ],
+        "gamma": [
+          0.0,
+          4.0,
+          0.0,
+          2.0
+        ],
+        "energy_after": [
+          0.1259184049064894
+        ]
+      },
+      "energy_before": [
+        0.1
+      ],
+      "voltage_complex_real": [
+        1.0,
+        0.9990078134072911,
+        0.9946180663330051,
+        0.9928828529157748,
+        0.9912759248085741,
+        0.9912485245778103,
+        0.9955402641599169,
+        0.9936841677176674,
+        0.9955883302749886,
+        0.9976785727090738,
+        0.9973988175922902,
+        0.9969312010711795,
+        0.9982454773361245,
+        1.000705196879106,
+        1.0021580712942,
+        1.0033702221098686,
+        1.0110702856611922,
+        1.0128903606784687,
+        0.998734012992084,
+        0.9968808037986367,
+        0.9965157338892636,
+        0.9961853778816712,
+        0.9927835860861838,
+        0.9893690083825304,
+        0.9876683034754081,
+        0.990851196977379,
+        0.9903625746587528,
+        0.989795926310415,
+        0.9895516674460264,
+        0.9891754619009417,
+        0.9905267631926042,
+        0.9913614758618261,
+        0.993127171214521
+      ],
+      "voltage_complex_imag": [
+        0.0,
+        -0.0014807188006655564,
+        -0.009373923441206742,
+        -0.01521416149712143,
+        -0.021322023908972684,
+        -0.03724392351834766,
+        -0.04278571088311719,
+        -0.050650448440212804,
+        -0.06419352154456441,
+        -0.07781014585703287,
+        -0.08001932214652523,
+        -0.08425012192522023,
+        -0.09798796083431303,
+        -0.10414344398172208,
+        -0.10988678885710197,
+        -0.11666438621111394,
+        -0.13071131075271133,
+        -0.1374053575986775,
+        -0.001578068583463492,
+        -0.0021774781194849532,
+        -0.0023503135400753552,
+        -0.0025318599443395805,
+        -0.009629094194957919,
+        -0.010368687209092703,
+        -0.01072883926380046,
+        -0.03804955882550772,
+        -0.03917469776060597,
+        -0.04445199903062569,
+        -0.048360384192791026,
+        -0.05038048410370914,
+        -0.054764692840224546,
+        -0.05615363564597216,
+        -0.0575922112752897
+      ],
+      "voltage_sq": [
+        0.9980188037769837,
+        0.9893529683166877,
+        0.9860478303242285,
+        0.9830825878086686,
+        0.9839607473167263,
+        0.9929310346193709,
+        0.9899736930999481,
+        0.995316931588032,
+        1.0014169532411072,
+        1.001207493251288,
+        1.000969902713639,
+        1.0060956734904938,
+        1.0122567479852247,
+        1.016395906225436,
+        1.020362381626823,
+        1.0393485693056965,
+        1.044827115052179,
+        0.9974721190077261,
+        0.9937760783931768,
+        0.9930491318625945,
+        0.9923917174200257,
+        0.9857119682571583,
+        0.9789585444222715,
+        0.9756037856819394,
+        0.9832338634783204,
+        0.9823526862293486,
+        0.9816719559585113,
+        0.9815512293044856,
+        0.9810062876054654,
+        0.9841424401827016,
+        0.9859508066191986,
+        0.989618441004134
+      ]
+    },
+    "M2": {
+      "dispatch": {
+        "u": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.027282531480515168,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.06,
+          0.05960000000000326,
+          0.0,
+          0.06,
+          0.0,
+          0.03,
+          0.06
+        ],
+        "pch": [
+          0.027282531480515147
+        ],
+        "pdis": [
+          0.0
+        ],
+        "zch": [
+          1.0
+        ],
+        "zdis": [
+          0.0
+        ],
+        "gamma": [
+          0.0,
+          4.0,
+          0.0,
+          2.0
+        ],
+        "energy_after": [
+          0.1259184049064894
+        ]
+      },
+      "energy_before": [
+        0.1
+      ],
+      "voltage_complex_real": [
+        1.0,
+        0.9990078134072911,
+        0.9946180663330051,
+        0.9928828529157748,
+        0.9912759248085741,
+        0.9912485245778103,
+        0.9955402641599169,
+        0.9936841677176674,
+        0.9955883302749886,
+        0.9976785727090738,
+        0.9973988175922902,
+        0.9969312010711795,
+        0.9982454773361245,
+        1.000705196879106,
+        1.0021580712942,
+        1.0033702221098686,
+        1.0110702856611922,
+        1.0128903606784687,
+        0.998734012992084,
+        0.9968808037986367,
+        0.9965157338892636,
+        0.9961853778816712,
+        0.9927835860861838,
+        0.9893690083825304,
+        0.9876683034754081,
+        0.990851196977379,
+        0.9903625746587528,
+        0.989795926310415,
+        0.9895516674460264,
+        0.9891754619009417,
+        0.9905267631926042,
+        0.9913614758618261,
+        0.993127171214521
+      ],
+      "voltage_complex_imag": [
+        0.0,
+        -0.0014807188006655564,
+        -0.009373923441206742,
+        -0.01521416149712143,
+        -0.021322023908972684,
+        -0.03724392351834766,
+        -0.04278571088311719,
+        -0.050650448440212804,
+        -0.06419352154456441,
+        -0.07781014585703287,
+        -0.08001932214652523,
+        -0.08425012192522023,
+        -0.09798796083431303,
+        -0.10414344398172208,
+        -0.10988678885710197,
+        -0.11666438621111394,
+        -0.13071131075271133,
+        -0.1374053575986775,
+        -0.001578068583463492,
+        -0.0021774781194849532,
+        -0.0023503135400753552,
+        -0.0025318599443395805,
+        -0.009629094194957919,
+        -0.010368687209092703,
+        -0.01072883926380046,
+        -0.03804955882550772,
+        -0.03917469776060597,
+        -0.04445199903062569,
+        -0.048360384192791026,
+        -0.05038048410370914,
+        -0.054764692840224546,
+        -0.05615363564597216,
+        -0.0575922112752897
+      ],
+      "voltage_sq": [
+        0.9980188037769837,
+        0.9893529683166877,
+        0.9860478303242285,
+        0.9830825878086686,
+        0.9839607473167263,
+        0.9929310346193709,
+        0.9899736930999481,
+        0.995316931588032,
+        1.0014169532411072,
+        1.001207493251288,
+        1.000969902713639,
+        1.0060956734904938,
+        1.0122567479852247,
+        1.016395906225436,
+        1.020362381626823,
+        1.0393485693056965,
+        1.044827115052179,
+        0.9974721190077261,
+        0.9937760783931768,
+        0.9930491318625945,
+        0.9923917174200257,
+        0.9857119682571583,
+        0.9789585444222715,
+        0.9756037856819394,
+        0.9832338634783204,
+        0.9823526862293486,
+        0.9816719559585113,
+        0.9815512293044856,
+        0.9810062876054654,
+        0.9841424401827016,
+        0.9859508066191986,
+        0.989618441004134
+      ]
+    }
+  },
+  "per_period_unchanged": [
+    {
+      "period": 1,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 2,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 3,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 4,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 5,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 6,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 7,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 8,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 9,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 10,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 11,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 12,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 13,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 14,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 15,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 16,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 17,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 18,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 19,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 20,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 21,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 22,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    },
+    {
+      "period": 23,
+      "scenario_unchanged": true,
+      "m1_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550",
+      "m2_sha256": "592cc9e76533681a91c88957159e652f9a2faba3553e1d0401252ae5cfd08550"
+    }
+  ],
+  "feedback_exactly_ac_measured": true,
+  "paired_ac_validation_periods": 24,
+  "both_actual_voltage_sources": "PYPOWER.runpf (48 calls: M1 24, M2 24)",
+  "final_source_verification": [
+    {
+      "file": "data.py",
+      "sha256": "4068f9cd5b452d732d6588f22e1aaeb84819340133050b8bd559231d20f3bb0e",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "controller.py",
+      "sha256": "c65eec4f28321ee62e81acc9d2c97d511652ab15ff387a8f99e0d1bc63b0f055",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "power_flow.py",
+      "sha256": "a38e845d5aeed3386de177a5f632531acf25f04551f90838a3cf4fc8f5b948cc",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "validation.py",
+      "sha256": "890becc6e3750fee9e87b15dbf7615d40b3567bae88bd5f18b0480b1b885be64",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    },
+    {
+      "file": "reference/rb_ieee33_storage.py",
+      "sha256": "35b5bd88dce15d12f86d04298175bb7b862c9acb97af4c31552a317c5193ea69",
+      "frozen_verified": true,
+      "live_source_present": true,
+      "live_source_matches": true
+    }
+  ]
+}

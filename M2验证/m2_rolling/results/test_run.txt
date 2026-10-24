@@ -1,0 +1,19 @@
+Recorded from the completed unittest execution (2026-10-22, Asia/Shanghai).
+Command:
+  C:\Users\29909\Documents\Codex\2026-10-22\du-q\work\.venv\Scripts\python.exe -m unittest discover -s tests -v
+Working directory:
+  D:\StudyAndCompitation\Master\Ucertain\selfResearch\M2验证\m2_rolling
+
+test_01_original_source_is_unchanged ... ok
+test_02_physical_data_and_dimensions ... ok
+test_03_topology_kcl_independently ... ok
+test_04_recurrence_and_parameter_separation ... ok
+test_05_initial_action_energy_counted_once ... ok
+test_06_soft_bounds_nonzero_and_dual_absolute_agree ... ok
+test_07_ac_setpoints_voltage_and_power_balance ... ok
+test_08_storage_energy_limits_both_boundaries ... ok
+test_09_invalid_feedback_is_rejected ... ok
+test_10_robust_verifier_rejects_corrupted_solution ... ok
+
+Ran 10 tests in 1.492s
+OK

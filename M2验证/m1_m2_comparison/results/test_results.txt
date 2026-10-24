@@ -1,0 +1,18 @@
+test_01_sources_and_scenario_match (test_comparison.ComparisonTests) ... ok
+test_02_changes_to_physical_or_model_values_are_rejected (test_comparison.ComparisonTests) ... ok
+test_03_shared_start_and_feedback_are_exact (test_comparison.ComparisonTests) ... ok
+test_04_no_storage_reset_and_energy_conservation (test_comparison.ComparisonTests) ... ok
+test_05_metric_units_counts_and_common_cost (test_comparison.ComparisonTests) ... ok
+test_06_same_dispatch_has_identical_evaluation (test_comparison.ComparisonTests) ... ok
+test_07_every_saved_array_is_finite (test_comparison.ComparisonTests) ... ok
+test_08_all_periods_have_parameter_audits (test_comparison.ComparisonTests) ... ok
+test_09_original_M2_trajectory_is_preserved (test_comparison.ComparisonTests) ... ok
+test_10_initial_all_fields_and_drift_rejection (test_comparison.ComparisonTests) ... ok
+test_11_both_control_sets_have_real_ac_results (test_comparison.ComparisonTests) ... ok
+test_12_prediction_metrics_use_correct_window_and_arrays (test_comparison.ComparisonTests) ... ok
+test_13_actual_M1_objective_coefficients_are_checked (test_comparison.ComparisonTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.851s
+
+OK
