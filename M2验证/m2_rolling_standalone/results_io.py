@@ -167,4 +167,31 @@ def save_results(directory, data, schedule, records, fingerprint, run_options):
 - `controls.csv`：实际执行的设备控制，功率已换算为kW/kvar，能量为kWh。
 '''.format(**summary)
     (directory / '验证说明.md').write_text(report, encoding='utf-8')
+    # 所有数值文件写完以后，再由独立脚本重新读取这些文件绘图。
+    # 不把 records、data 或求解器对象交给绘图层；历史结果也可以单独重绘。
+    save_result_figures(directory)
     return summary
+
+
+def save_result_figures(directory):
+    """可视化属于结果后处理；绘图失败不把已成功的模型运行标为失败。"""
+    import sys
+    import traceback
+    try:
+        from plot_results import generate_figures
+        figure_dir = generate_figures(directory)
+        print('可视化已保存：%s' % figure_dir, flush=True)
+        return figure_dir
+    except Exception:
+        # 保留完整错误，用户修复依赖后可执行 plot_results.py 单独重绘。
+        figure_dir = Path(directory) / 'figure'
+        diagnostic = traceback.format_exc()
+        try:
+            figure_dir.mkdir(exist_ok=True)
+            (figure_dir / 'plotting_error.txt').write_text(diagnostic, encoding='utf-8')
+        except OSError:
+            print(diagnostic, file=sys.stderr)
+        print('数值结果已保存，但可视化失败。请查看 figure/plotting_error.txt；'
+              '确认安装 requirements.txt 中的 matplotlib 后可单独重绘。',
+              file=sys.stderr, flush=True)
+        return None
