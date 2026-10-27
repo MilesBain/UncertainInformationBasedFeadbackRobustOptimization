@@ -506,7 +506,7 @@ def write_analysis(data, metrics, selected, figure_dir, files, library_version, 
     (figure_dir / 'README.md').write_text(notes, encoding='utf-8')
 
 
-def generate_figures(result_dir, buses=None, dpi=200, formats=('png', 'pdf')):
+def generate_figures(result_dir, buses=None, dpi=200, formats=('png',)):
     """唯一对外绘图接口，返回 figure 目录；可由 results_io 或命令行调用。
 
     result_dir: 已保存的一次运行目录，不是项目目录或 results 总目录。
@@ -565,7 +565,7 @@ def main():
     parser.add_argument('--results', required=True, type=Path, help='一次运行的结果目录，内含 trajectory.npz 等')
     parser.add_argument('--buses', nargs='+', type=int, help='图02要画的非根节点号，如 --buses 6 18 25 33')
     parser.add_argument('--dpi', type=int, default=200, help='PNG 分辨率，默认 200')
-    parser.add_argument('--formats', nargs='+', choices=['png', 'pdf', 'svg'], default=['png', 'pdf'])
+    parser.add_argument('--formats', nargs='+', choices=['png', 'pdf', 'svg'], default=['png'])
     args = parser.parse_args()
     directory = generate_figures(args.results, args.buses, args.dpi, args.formats)
     print('可视化完成：%s' % directory)

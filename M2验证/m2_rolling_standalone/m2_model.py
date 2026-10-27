@@ -65,10 +65,13 @@ def solve_step(data, state, formulation='dual', show_log=False, time_limit=120, 
             if formulation == 'dual':  # 构建对偶约束
                 # F=[I;-I]，因此F.T @ lambda就是前半段减后半段。
                 # 使用稀疏的差分写法，数学上仍是文档的F.T lambda = +/-h。
-                model.addConstr(dual_upper[node, :parameter_count]
+                """model.addConstr(dual_upper[node, :parameter_count]
                                 - dual_upper[node, parameter_count:] == h)
                 model.addConstr(dual_lower[node, :parameter_count]
-                                - dual_lower[node, parameter_count:] == -h)
+                               - dual_lower[node, parameter_count:] == -h)"""
+                
+                model.addConstr(data.F.T @ dual_upper[node] == h)
+                model.addConstr(data.F.T @ dual_lower[node] == -h)
                 model.addConstr(data.g @ dual_upper[node]
                                 <= data.voltage_max_sq + slack_upper[node] - measured)
                 model.addConstr(data.g @ dual_lower[node]

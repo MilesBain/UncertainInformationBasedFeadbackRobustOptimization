@@ -68,7 +68,7 @@ def add_devices(model, data, period, energy_before):
                         + settings['eta_ch'] * charge[index] * data.dt
                         - discharge[index] * data.dt / settings['eta_dis'])
 
-    # 优化中的主网功率按无损功率平衡定义，与静态模型的口径相同。
+    # 优化中的主网功率按无损功率平衡定义。
     # AC潮流会另行计算包含损耗的主网功率，两个数不应强制相等。
     grid_p = -data.p_external[period].sum() - data.Bp.sum(axis=0) @ u
     grid_q = -data.q_external[period].sum() - data.Bq.sum(axis=0) @ u

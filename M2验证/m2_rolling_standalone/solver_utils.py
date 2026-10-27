@@ -4,7 +4,7 @@ from gurobipy import GRB
 import config  # 包含下面要使用的参数
 
 
-def configure_solver(model, show_log=False, time_limit=120):
+def configure_solver(model, show_log=False, time_limit=120): 
     if time_limit is not None and time_limit <= 0:
         raise ValueError('每次求解的时间上限必须为正数。')
     model.Params.OutputFlag = int(show_log)
